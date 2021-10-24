@@ -1,38 +1,38 @@
 const questions = [
   {
-    'question': '당신의 성별은?',
-    'answers': [
-        {
-            text: '남자',
-            score: 78 //현재 남성 평균 수명 = 78세이므로 78을 기준값으로 가지고 시작
-        },
-        {
-            text: '여자',
-            score: 83
-        }
+    question: "당신의 성별은?",
+    answers: [
+      {
+        text: "남자",
+        score: 80, //현재 남성 평균 수명 = 80세이므로 80을 기준값으로 가지고 시작
+      },
+      {
+        text: "여자",
+        score: 86,
+      },
     ],
-    'weight': 1
-},
-{
-    'question': '당신의 나이대를 입력해주세요',
-    'answers': [ //위의 기준값 - 현재 나이의 중간값(10~20 : 15)
-        {
-            text: '10~20',
-            score: -15
-        },
-        {
-            text: '20~30',
-            score: -25
-        },
-        {
-            text: '30~40',
-            score: -35
-        },
-        
+    weight: 1,
+  },
+  {
+    question: "당신의 나이대를 입력해주세요",
+    answers: [
+      //위의 기준값 - 현재 나이의 중간값(10~20 : 15)
+      {
+        text: "10~20",
+        score: -15,
+      },
+      {
+        text: "20~30",
+        score: -25,
+      },
+      {
+        text: "30~40",
+        score: -35,
+      },
     ],
-    'weight': 1
-},
-{
+    weight: 1,
+  },
+  {
     question: "담배를 핀다? 안핀다?",
     answers: [
       {
@@ -101,7 +101,6 @@ const questions = [
         text: "6시간 미만",
         score: -4,
       },
-      
     ],
     weight: 1,
   },
@@ -142,7 +141,6 @@ const questions = [
         text: "500ml 미만",
         score: -4,
       },
-      
     ],
     weight: 1,
   },
@@ -187,7 +185,6 @@ const questions = [
         text: "비정기적으로 어울림",
         score: -4,
       },
-
     ],
     weight: 1,
   },
