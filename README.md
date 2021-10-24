@@ -1,7 +1,1 @@
-npm i react react-dom
-
-git add .
-git commit -m "aa12"
-git push origin master
-
-npm run deploy
+포트폴리오 사이트
