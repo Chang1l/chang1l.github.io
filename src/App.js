@@ -19,7 +19,6 @@ function App({ props }) {
         render={(props) => <ResultPage props={props} {...props} />}
       ></Route>
 
-
       <Route
         exact
         path="/public/makers"
